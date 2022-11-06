@@ -6,6 +6,8 @@ public class Employee {
     private String name;
     private Double salary;
 
+    public Employee() {
+    }
 
     public Employee(Integer id, String name, Double salary) {
         this.id = id;
@@ -33,11 +35,9 @@ public class Employee {
     
     @Override
     public String toString() {
-        return "Id: " + id +
-                ", " +
-                "Name: " + name +
-                ", " +
-                "Salary: " + String.format("%.2f", salary);
+        return id + ", " +
+                name + ", " +
+                String.format("%.2f", salary);
     }
 
 
