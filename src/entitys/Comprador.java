@@ -47,7 +47,7 @@ public class Comprador {
         return livrosComprados;
     }
 
-    public void comprar(Livros livros, String tituloLivro) {
+    public void comprar(Livros livros, int idLivro) {
 
         if (livros.getPreco() > this.getDinheiro()) {
             System.out.println("Você não possuí dinheiro suficiente para comprar este item!");

@@ -35,8 +35,8 @@ public class Livros {
         return idLivro;
     }
 
-    public static boolean contemLivro(List<Livros> listLivros, String titulo) {
-        Livros result = listLivros.stream().filter(x -> x.getTitulo() == titulo).findFirst().orElse(null);
+    public static boolean contemLivro(List<Livros> listLivros, int idLivro2) {
+        Livros result = listLivros.stream().filter(x -> x.getIdLivro() == idLivro2).findFirst().orElse(null);
         return result != null;
     }
 

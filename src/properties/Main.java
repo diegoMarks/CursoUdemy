@@ -91,14 +91,14 @@ public class Main {
 
         if (resp.equals("S")) {
             sc.nextLine();
-            System.out.println("Qual o Título que deseja comprar? ");
-            String tituloLivro = sc.nextLine();
+            System.out.println("Qual o Id do livro que deseja comprar? ");
+            int idLivro = sc.nextInt();
 
-            Livros result = list.stream().filter(x -> x.getTitulo() == tituloLivro)
+            Livros result = list.stream().filter(x -> x.getIdLivro() == idLivro)
                     .findFirst().orElse(null);
 
-            if (Livros.contemLivro(list, tituloLivro)) {
-                comprador.comprar(result, tituloLivro);
+            if (Livros.contemLivro(list, idLivro)) {
+                comprador.comprar(result, idLivro);
             }
 
         } else {
