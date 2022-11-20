@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 out
 server
 node_modules
@@ -17,6 +18,8 @@ bin/
 test/resources/projects/**/.vscode
 test/resources/projects/maven/salut/testGradle
 =======
+=======
+>>>>>>> 6e0e5818131bc637288efb49543b086eff20a975
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,java,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,java,windows
 
@@ -138,5 +141,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+<<<<<<< HEAD
+# End of https://www.toptal.com/developers/gitignore/api/eclipse,java,windows
+>>>>>>> 6e0e5818131bc637288efb49543b086eff20a975
+=======
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,java,windows
 >>>>>>> 6e0e5818131bc637288efb49543b086eff20a975
